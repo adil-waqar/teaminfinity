@@ -3,6 +3,8 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Raleway:800,400|Muli");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -13,15 +15,20 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #fe3636;
 }
 
 a:hover {
-  color: #fec503;
+  color: #fe0303;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #fe3636 !important;
+}
+
+hr {
+  border-top: 1px solid #fe3636;
+  width: 40%;
 }
 
 h1,
@@ -55,7 +62,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 }
 
@@ -70,13 +77,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #fe3636;
+  border-color: #fe3636;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #fe1010 !important;
+  border-color: #fe1010 !important;
   color: white;
 }
 
@@ -85,12 +92,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #fe3636;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #fe3636;
   text-shadow: none;
 }
 
@@ -102,8 +109,13 @@ img::-moz-selection {
   background: transparent;
 }
 
+img {
+  width: 100%;
+  height: 90%;
+}
+
 #mainNav {
-  background-color: #212529;
+  background-color: #464646;
 }
 
 #mainNav .navbar-toggler {
@@ -113,17 +125,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #fe3636;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #fe3636;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #fe0303;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -136,7 +148,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #fe3636;
 }
 
 @media (min-width: 992px) {
@@ -161,7 +173,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #464646;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -183,16 +195,16 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 300px;
+  padding-bottom: 150px;
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
+  font-size: 30px;
   font-style: italic;
-  line-height: 22px;
+  line-height: 35px;
   margin-bottom: 25px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -203,30 +215,91 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+header.masthead .intro-text .intro-para {
+  display: none;
+}
+
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    width: 45%;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
+    font-size: 30px;
     font-style: italic;
     line-height: 40px;
-    margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 75px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  header.masthead .intro-text .intro-para {
+    display: block;
+    font-weight: 300;
   }
 }
 
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
+.infinity-heading {
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.infinity-text {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 20px;
+  line-height: 1 !important;
+  font-weight: 800;
+}
+
+.manager-text {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1;
+  color: #464646;
+}
+
+.manager-text {
+  content: "";
+  /* This is necessary for the pseudo element to work. */
+  display: block;
+  /* This will put the pseudo element on its own line. */
+  margin: 0 left;
+  /* This will center the border. */
+  width: 20%;
+  /* Change this to whatever width you want. */
+  padding-top: 10px;
+  /* This creates some space between the element and the border. */
+  padding-left: 10px;
+  border-top: 5px solid red;
+  /* This creates the border. Replace black with whatever color you want. */
+  border-left: 5px solid red;
+}
+
+.quote-text {
+  font-family: 'Muli', sans-serif;
+  font-size: 27px;
+  padding: 0px 40px;
+  line-height: 1.4;
+  color: #7f7e7e;
+}
+
+.quote-end {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  color: #464646;
+  font-weight: 800 !important;
+  line-height: 1;
+}
+
+.quote-end-1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
 }
 
 #portfolio .portfolio-item {
@@ -250,7 +323,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(254, 54, 54, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -374,7 +447,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #212529;
+  background-color: #464646;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -386,7 +459,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  background-color: #212529;
+  background-color: #464646;
 }
 
 .timeline {
@@ -454,7 +527,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #fe3636;
 }
 
 .timeline > li .timeline-image h4 {
@@ -597,7 +670,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
+  background-color: #464646;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -625,7 +698,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #fe3636;
   box-shadow: none;
 }
 
@@ -691,9 +764,9 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #464646;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #fe3636;
 }

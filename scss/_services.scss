@@ -1,5 +1,56 @@
 // Styling for the services section
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
+// manager stuff
+.infinity-heading {
+  // margin: 15px 0;
+  // text-transform: none;
+  @include main-heading;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.infinity-text{
+  @include main-heading;
+  margin-top: 20px;
+  line-height: 1 !important;
+  font-weight: 800;
+}
+
+.manager-text{
+  @include main-heading;
+  line-height: 1;
+  color: #464646
+}
+
+.manager-text{
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 left; /* This will center the border. */
+    width: 20%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    padding-left: 10px;
+    border-top: 5px solid red; /* This creates the border. Replace black with whatever color you want. */
+    border-left: 5px solid red;
+}
+
+.quote-text{
+  @include quote;
+  font-size: 27px;
+  padding: 0px 40px;
+  line-height: 1.4;
+  color: #7f7e7e;
+}
+
+.quote-end{
+  @include main-heading;
+  font-size: 24px;
+  color: #464646;
+  font-weight: 800 !important;
+  line-height: 1;
+}
+
+.quote-end-1 {
+  @include main-heading;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
 }

@@ -19,6 +19,11 @@ a {
   color: $primary !important;
 }
 
+hr{
+  border-top: 1px solid $primary;
+  width: 40%;
+}
+
 h1,
 h2,
 h3,
@@ -47,7 +52,7 @@ section {
 }
 @media(min-width:768px) {
   section {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 }
 
@@ -95,4 +100,9 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+img{
+  width: 100%;
+  height: 90%;
 }

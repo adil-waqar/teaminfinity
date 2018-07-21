@@ -1,4 +1,5 @@
 // Mixins
+@import url('https://fonts.googleapis.com/css?family=Raleway:800,400|Muli');
 // Background Cover Mixin
 @mixin background-cover {
   -webkit-background-size: cover;
@@ -19,4 +20,11 @@
 }
 @mixin heading-font {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+@mixin main-heading {
+  font-family: 'Raleway', sans-serif;
+}
+
+@mixin quote {
+  font-family: 'Muli', sans-serif;
 }
