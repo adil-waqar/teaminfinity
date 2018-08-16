@@ -253,7 +253,7 @@ header.masthead .intro-text .intro-para {
   font-family: 'Raleway', sans-serif;
   margin-top: 20px;
   line-height: 1 !important;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .manager-text {
@@ -281,7 +281,7 @@ header.masthead .intro-text .intro-para {
 
 .quote-text {
   font-family: 'Muli', sans-serif;
-  font-size: 27px;
+  font-size: 24px;
   padding: 0px 40px;
   line-height: 1.4;
   color: #7f7e7e;
@@ -300,6 +300,70 @@ header.masthead .intro-text .intro-para {
   font-size: 24px;
   font-weight: 400;
   line-height: 1;
+}
+
+.infinity-heading > hr {
+  width: 60% !important;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.card-header {
+  background-color: #464646;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+  margin-top: 25px;
+}
+
+.body-one {
+  border: 1px solid  #cd7f32;
+}
+
+.body-two {
+  border: 1px solid #C0C0C0;
+}
+
+.body-three {
+  border: 1px solid #FFD700;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.credit > img {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.credit {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
 }
 
 #portfolio .portfolio-item {
@@ -669,6 +733,19 @@ header.masthead .intro-text .intro-para {
   margin-top: 0;
 }
 
+.team {
+  margin-bottom: 30px;
+}
+
+.team > hr {
+  width: 40% !important;
+}
+
+.master-team {
+  background-color: #464646;
+  color: white;
+}
+
 section#contact {
   background-color: #464646;
   background-image: url("../img/map-image.png");
@@ -678,15 +755,16 @@ section#contact {
 
 section#contact .section-heading {
   color: #fff;
+  margin-bottom: 25px;
 }
 
 section#contact .form-group {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 section#contact .form-group input,
 section#contact .form-group textarea {
-  padding: 20px;
+  padding: 10px;
 }
 
 section#contact .form-group input.form-control {
@@ -694,7 +772,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-  height: 248px;
+  height: 190px;
 }
 
 section#contact .form-control:focus {
@@ -728,14 +806,23 @@ section#contact :-ms-input-placeholder {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+iframe {
+  width: 100%;
+  height: 385px;
+  border: 0;
+}
+
 footer {
+  background-color: #464646;
   padding: 25px 0;
   text-align: center;
+  border-top: 2px solid #fe3636;
+  color: white;
 }
 
 footer span.copyright {
   font-size: 90%;
-  line-height: 40px;
+  line-height: 30px;
   text-transform: none;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -761,10 +848,10 @@ ul.social-buttons li a {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  color: white;
+  color: #464646;
   border-radius: 100%;
   outline: none;
-  background-color: #464646;
+  background-color: white;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {

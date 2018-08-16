@@ -12,7 +12,7 @@
   @include main-heading;
   margin-top: 20px;
   line-height: 1 !important;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .manager-text{
@@ -34,7 +34,7 @@
 
 .quote-text{
   @include quote;
-  font-size: 27px;
+  font-size: 24px;
   padding: 0px 40px;
   line-height: 1.4;
   color: #7f7e7e;

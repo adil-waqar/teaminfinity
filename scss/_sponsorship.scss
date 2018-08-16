@@ -1,0 +1,44 @@
+.infinity-heading > hr {
+  width: 60% !important;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.card-header{
+  background-color: $gray-900;
+  @include main-heading;
+  color: white;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+  margin-top: 25px;
+}
+
+.body-one{
+  border: 1px solid  #cd7f32;
+}
+
+.body-two{
+  border: 1px solid #C0C0C0;
+}
+
+.body-three{
+  border: 1px solid #FFD700;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }

@@ -1,0 +1,10 @@
+.credit > img{
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.credit{
+  @include main-heading;
+  font-weight: 400;
+  font-size: 25px;
+}

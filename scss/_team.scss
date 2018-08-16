@@ -16,3 +16,16 @@
     margin-top: 0;
   }
 }
+
+.team {
+  margin-bottom: 30px;
+}
+
+.team > hr {
+  width: 40% !important;
+}
+
+.master-team {
+  background-color: $gray-900;
+  color: white;
+}
