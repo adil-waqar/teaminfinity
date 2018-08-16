@@ -1,0 +1,13 @@
+// Includes fixes for all images
+  height: 670px !important;
+}
+
+#mainNav img{
+  width: 25% !important;
+}
+
+@media(max-width: 780px){
+  #manager img{
+    display: none;
+  }
+}

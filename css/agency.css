@@ -111,7 +111,6 @@ img::-moz-selection {
 
 img {
   width: 100%;
-  height: 90%;
 }
 
 #mainNav {
@@ -178,6 +177,20 @@ img {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
+  }
+}
+
+#car-img img {
+  height: 670px !important;
+}
+
+#mainNav img {
+  width: 25% !important;
+}
+
+@media (max-width: 780px) {
+  #manager img {
+    display: none;
   }
 }
 
@@ -710,6 +723,10 @@ html {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+
+#infinity img {
+  height: 90% !important;
 }
 
 .team-member {
