@@ -1,0 +1,340 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title Team Infinity
+    // Bootstrap core CSS
+    link(href='bootstrap/css/bootstrap.min.css', rel='stylesheet')
+    // Custom fonts for this template
+    link(href='font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Kaushan+Script', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+    // Slick slider stuff
+    link(rel='stylesheet', type='text/css', href='slick/slick.css')
+    link(rel='stylesheet', type='text/css', href='slick/slick-theme.css')
+    // Custom styles for this template
+    link(href='css/agency.min.css', rel='stylesheet')
+    // Animate css
+    link(rel='stylesheet', href='bower_components/animate.css/animate.min.css')
+  body#page-top
+    // Navigation
+    nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
+      .container
+        a.navbar-brand.js-scroll-trigger(href='#page-top')
+          img(src='img/logos/3.png')
+        button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+          | Menu
+          i.fa.fa-bars
+        #navbarResponsive.collapse.navbar-collapse
+          ul.navbar-nav.text-uppercase.ml-auto
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#infinity') Infinity
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#team') Team
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#sponsorship') SPONSORSHIP
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#contact') Contact
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#credits') Credits
+    // - Image Slider
+    #car-img
+      #carouselExampleIndicators.carousel.slide(data-ride='carousel')
+        ol.carousel-indicators
+          li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+          li(data-target='#carouselExampleIndicators', data-slide-to='1')
+          li(data-target='#carouselExampleIndicators', data-slide-to='2')
+        #carousel.carousel-inner
+          .carousel-item.active
+            img.d-block.w-100(src='./img/c1.jpeg', alt='First slide')
+            .carousel-caption.d-none.d-md-block
+              .row
+                .col-md-6.text-left.wow.fadeInLeft
+                  h5.line-fix
+                    | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus modi veniam temporibus nisi inventore. Expedita nostrum eveniet quas iste unde.
+                  p.lead
+                    | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, error? Voluptate, quidem? Atque vero asperiores neque, rerum eos delectus odit, blanditiis perspiciatis dignissimos, soluta repellat magnam quae libero ab nesciunt.
+          .carousel-item
+            img.d-block.w-100(src='./img/c2.jpeg', alt='Second slide')
+            .carousel-caption.d-none.d-md-block
+              .row
+                .col-md-6.text-left
+                  h5.line-fix Second slide
+                  p.lead Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, maiores.
+          .carousel-item
+            img.d-block.w-100(src='./img/c3.jpeg', alt='Third slide')
+            .carousel-caption.d-none.d-md-block
+              .row
+                .col-md-6.text-left
+                  h5.line-fix Third slide
+                  p.lead
+                    | Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quia ducimus nisi aliquam ut veritatis architecto. Provident corporis in eos.
+        a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
+          span.carousel-control-prev-icon(aria-hidden='true')
+          span.sr-only Previous
+        a.carousel-control-next(href='#carouselExampleIndicators', role='button', data-slide='next')
+          span.carousel-control-next-icon(aria-hidden='true')
+          span.sr-only Next
+    // Team infinity
+    section#infinity
+      .container
+        .row
+          .col-md-12.text-center.infinity-heading
+            hr
+            |  TEAM INFINITY
+          .col-md-3.col-sm-12.wow.fadeInLeft
+            img(src='img/logos/2.png')
+          .col-md-9.col-sm-12.text-left.infinity-text
+            p.wow.animated.fadeInRight
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              | irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          .col-md-4.wow.fadeInLeft
+            img(src='img/Infinity/1.jpeg')
+          .col-md-4
+            img(src='img/Infinity/2.jpeg')
+          .col-md-4.wow.fadeInRight
+            img(src='img/Infinity/3.jpeg')
+    // From the manager
+    section#manager
+      .container
+        .row
+          .col-md-3.wow.fadeInLeft
+            img(src='img/Team Profiles/Humaiz_1.jpg')
+          .col-md-9.infinity-heading
+            p.manager-text
+              | FROM
+              br
+              | THE
+              br
+              | MANAGER
+            p.quote-text.wow.fadeInRight
+              | "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              | irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            p.quote-end.text-right HUMAIZ ANJUM 
+            p.quote-end-1.text-right
+              | MANAGER 
+              br
+              | TEAM INFINITY GIKI
+    // Meet the team
+    section#team.master-team
+      .container
+        .row
+          .col-md-12.text-center.infinity-heading.team
+            hr
+            |  MEET OUR TEAM
+        .responsive
+          .team-member.wow.fadeInLeft
+            img.mx-auto.rounded-circle(src='img/team/1.jpg', alt='')
+            h4 Kay Garland
+            p.text-muted Lead Designer
+            ul.list-inline.social-buttons
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-twitter
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-facebook
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-linkedin
+          .team-member
+            img.mx-auto.rounded-circle(src='img/team/2.jpg', alt='')
+            h4 Larry Parker
+            p.text-muted Lead Marketer
+            ul.list-inline.social-buttons
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-twitter
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-facebook
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-linkedin
+          .team-member
+            img.mx-auto.rounded-circle(src='img/team/3.jpg', alt='')
+            h4 Diana Pertersen
+            p.text-muted Lead Developer
+            ul.list-inline.social-buttons
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-twitter
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-facebook
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-linkedin
+          .team-member.wow.fadeInRight
+            img.mx-auto.rounded-circle(src='img/team/3.jpg', alt='')
+            h4 Diana Pertersen
+            p.text-muted Lead Developer
+            ul.list-inline.social-buttons
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-twitter
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-facebook
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-linkedin
+          .team-member
+            img.mx-auto.rounded-circle(src='img/team/3.jpg', alt='')
+            h4 Diana Pertersen
+            p.text-muted Lead Developer
+            ul.list-inline.social-buttons
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-twitter
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-facebook
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-linkedin
+    // sponsorship packages
+    section#sponsorship
+      .container.sponsorship
+        .col-md-12.text-center.infinity-heading
+          hr
+          |  SPONSORSHIP PACKAGES
+        .card-deck.mb-3.text-center
+          .card.mb-4.box-shadow.wow.fadeInLeft
+            .card-header
+              h4.my-0.font-weight-normal BRONZE
+            .card-body.body-one
+              h1.card-title.pricing-card-title
+                | $0 
+                small.text-muted / mo
+              ul.list-unstyled.mt-3.mb-4
+                li 10 users included
+                li 2 GB of storage
+                li Email support
+                li Help center access
+                li 2 GB of storage
+                li Email support
+                li Help center access
+          .card.mb-4.box-shadow.wow.pulse
+            .card-header
+              h4.my-0.font-weight-normal SILVER
+            .card-body.body-two
+              h1.card-title.pricing-card-title
+                | $15 
+                small.text-muted / mo
+              ul.list-unstyled.mt-3.mb-4
+                li 20 users included
+                li 10 GB of storage
+                li Priority email support
+                li Help center access
+                li Priority email support
+                li Help center access
+                li Priority email support
+          .card.mb-4.box-shadow.wow.fadeInRight
+            .card-header
+              h4.my-0.font-weight-normal GOLD
+            .card-body.body-three
+              h1.card-title.pricing-card-title
+                | $29 
+                small.text-muted / mo
+              ul.list-unstyled.mt-3.mb-4
+                li 30 users included
+                li 15 GB of storage
+                li Phone and email support
+                li Help center access
+                li 15 GB of storage
+                li Phone and email support
+                li Help center access
+    // Contact US
+    section#contact
+      .container
+        .row
+          .col-lg-12.text-center
+            h2.section-heading.text-uppercase Contact Us
+        .row
+          .col-lg-12
+            form#contactForm(name='sentMessage', novalidate='novalidate')
+              .row
+                .col-md-6.wow.fadeInLeft
+                  .form-group
+                    input#name.form-control(type='text', placeholder='Your Name *', required='required', data-validation-required-message='Please enter your name.')
+                    p.help-block.text-danger
+                  .form-group
+                    input#email.form-control(type='email', placeholder='Your Email *', required='required', data-validation-required-message='Please enter your email address.')
+                    p.help-block.text-danger
+                  .form-group
+                    input#phone.form-control(type='tel', placeholder='Your Phone *', required='required', data-validation-required-message='Please enter your phone number.')
+                    p.help-block.text-danger
+                  .form-group
+                    textarea#message.form-control(placeholder='Your Message *', required='required', data-validation-required-message='Please enter a message.')
+                    p.help-block.text-danger
+                .col-md-6
+                  // map
+                  iframe.wow.fadeInRight(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.014224156095!2d72.64194641460257!3d34.06914962428766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38def93c5797c0d7%3A0x95445985be9ab625!2sGhulam+Ishaq+Khan+Institute+of+Engineering+Sciences+and+Technology!5e0!3m2!1sen!2s!4v1532350980398', allowfullscreen='')
+                .clearfix
+                .col-lg-12.text-center
+                  #success
+                  button#sendMessageButton.btn.btn-primary.btn-xl.text-uppercase(type='submit') Send Message
+    // Credits
+    section#credits
+      .container
+        .row
+          .col-md-12.text-center.credit
+            img.rounded-circle.rounded.img-fluid(src='img/about/1.jpg', alt='', style='width:10%;')
+            img.rounded-circle.rounded.img-fluid(src='img/about/2.jpg', alt='', style='width:10%')
+            img.rounded-circle.rounded.img-fluid(src='img/about/3.jpg', alt='', style='width:10%')
+            img.rounded-circle.rounded.img-fluid(src='img/about/4.jpg', alt='', style='width:10%')
+            p.wow.pulse
+              | Special thanks to Uzazir Aziz and Hanan Khaleeq photography for providing pictures 
+              br
+              |  To Adil Waqar and Sadiq Shah for developing the website
+    // Footer
+    footer
+      .container
+        .row
+          .col-md-4
+            span.copyright
+              | Copyright © Team Infinity 2018 
+              br
+              |  All rights reserved
+          .col-md-4
+            ul.list-inline.social-buttons
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-twitter
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-facebook
+              li.list-inline-item
+                a(href='#')
+                  i.fa.fa-instagram
+          .col-md-4
+            ul.list-inline.quicklinks
+              li.list-inline-item
+                a(href='#') Privacy Policy
+              li.list-inline-item
+                a(href='#') Terms of Use
+    // Bootstrap core JavaScript
+    script(src='jquery/jquery.min.js')
+    script(src='bootstrap/js/bootstrap.bundle.min.js')
+    // Plugin JavaScript
+    script(src='jquery-easing/jquery.easing.min.js')
+    // Contact form JavaScript
+    script(src='js/jqBootstrapValidation.js')
+    script(src='js/contact_me.js')
+    // Custom scripts for this template
+    script(src='js/agency.min.js')
+    // Slick js
+    script(type='text/javascript', src='slick/slick.min.js')
+    script(type='text/javascript', src='//code.jquery.com/jquery-migrate-1.2.1.min.js')
+    script(src='js/slider.min.js')
+    // wow
+    script(src='bower_components/wow/dist/wow.min.js')
+    script.
+      new WOW().init();
+    script(src='http://localhost:35729/livereload.js')

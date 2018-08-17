@@ -1,8 +1,9 @@
 {
-    "title": "Agency",
-    "name": "startbootstrap-agency",
+    "title": "TeamInfinity",
+    "name": "team-infinity",
     "version": "4.1.1",
-    "description": "Agency is a one page HTML theme for Bootstrap.",
+    "description": "This is a website for racers",
+    "main": "app.js",
     "keywords": [
         "css",
         "sass",
@@ -11,25 +12,26 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/agency",
+    "scripts": {},
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/adil-waqar/teaminfinity",
+        "email": "adil.waqar78@hotmail.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "author": "Adil Waqar",
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+        "url": "https://github.com/adil-waqar/teaminfinity"
     },
     "dependencies": {
+        "body-parser": "^1.18.3",
         "bootstrap": "4.1.1",
+        "express": "^4.16.3",
         "font-awesome": "4.7.0",
         "jquery": "3.3.1",
-        "jquery.easing": "^1.4.1"
+        "jquery.easing": "^1.4.1",
+        "nodemailer": "^4.6.8",
+        "pug": "^2.0.3"
     },
     "devDependencies": {
         "browser-sync": "2.24.3",
