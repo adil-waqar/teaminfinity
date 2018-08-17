@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css?family=Raleway:800,400|Muli");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -194,71 +193,13 @@ img {
   bottom: initial;
 }
 
+.line-fix {
+  line-height: 1.4em;
+}
+
 @media (max-width: 780px) {
   #manager img {
     display: none;
-  }
-}
-
-header.masthead {
-  text-align: center;
-  color: white;
-  background-image: url("../img/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-header.masthead .intro-text {
-  padding-top: 300px;
-  padding-bottom: 150px;
-}
-
-header.masthead .intro-text .intro-lead-in {
-  font-size: 30px;
-  font-style: italic;
-  line-height: 35px;
-  margin-bottom: 25px;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-header.masthead .intro-text .intro-heading {
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 50px;
-  margin-bottom: 25px;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-header.masthead .intro-text .intro-para {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  header.masthead .intro-text {
-    padding-top: 180px;
-    padding-bottom: 100px;
-    width: 45%;
-  }
-  header.masthead .intro-text .intro-lead-in {
-    font-size: 30px;
-    font-style: italic;
-    line-height: 40px;
-    margin-bottom: 30px;
-  }
-  header.masthead .intro-text .intro-heading {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 75px;
-    margin-bottom: 50px;
-  }
-  header.masthead .intro-text .intro-para {
-    display: block;
-    font-weight: 300;
   }
 }
 
