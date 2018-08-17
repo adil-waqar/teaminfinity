@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css?family=Raleway:800,400|Muli");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -111,7 +110,6 @@ img::-moz-selection {
 
 img {
   width: 100%;
-  height: 90%;
 }
 
 #mainNav {
@@ -181,65 +179,27 @@ img {
   }
 }
 
-header.masthead {
-  text-align: center;
-  color: white;
-  background-image: url("../img/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#car-img img {
+  height: 670px !important;
 }
 
-header.masthead .intro-text {
-  padding-top: 300px;
-  padding-bottom: 150px;
+#mainNav img {
+  width: 25% !important;
 }
 
-header.masthead .intro-text .intro-lead-in {
-  font-size: 30px;
-  font-style: italic;
-  line-height: 35px;
-  margin-bottom: 25px;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
 }
 
-header.masthead .intro-text .intro-heading {
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 50px;
-  margin-bottom: 25px;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+.line-fix {
+  line-height: 1.4em;
 }
 
-header.masthead .intro-text .intro-para {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  header.masthead .intro-text {
-    padding-top: 180px;
-    padding-bottom: 100px;
-    width: 45%;
-  }
-  header.masthead .intro-text .intro-lead-in {
-    font-size: 30px;
-    font-style: italic;
-    line-height: 40px;
-    margin-bottom: 30px;
-  }
-  header.masthead .intro-text .intro-heading {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 75px;
-    margin-bottom: 50px;
-  }
-  header.masthead .intro-text .intro-para {
-    display: block;
-    font-weight: 300;
+@media (max-width: 780px) {
+  #manager img {
+    display: none;
   }
 }
 
@@ -710,6 +670,10 @@ html {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+
+#infinity img {
+  height: 90% !important;
 }
 
 .team-member {

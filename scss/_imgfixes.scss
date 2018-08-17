@@ -1,0 +1,25 @@
+// Included css for both nav and carousel images
+#car-img img{
+  height: 670px !important;
+}
+
+#mainNav img{
+  width: 25% !important;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  
+}
+
+.line-fix{
+  line-height: 1.4em;
+}
+
+@media(max-width: 780px){
+  #manager img{
+    display: none;
+  }
+}
