@@ -188,6 +188,12 @@ img {
   width: 25% !important;
 }
 
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
 @media (max-width: 780px) {
   #manager img {
     display: none;
