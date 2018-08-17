@@ -1,0 +1,30 @@
+{
+  "name": "infinity",
+  "description": "A website for racers",
+  "main": "index.html",
+  "authors": [
+    "Adil Waqar"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://github.com/adil-waqar/teaminfinity",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "wow": "wow-mit#^1.3.0"
+  }
+}
